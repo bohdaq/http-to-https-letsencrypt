@@ -25,6 +25,7 @@ Releases initially being prepared at
 
 There are additional templates for
 [Homebrew](https://brew.sh/),
+[Portage](https://wiki.gentoo.org/wiki/Portage),
 [Debian](https://www.debian.org/) and
 [RPM](https://rpm.org/) package systems.
 
