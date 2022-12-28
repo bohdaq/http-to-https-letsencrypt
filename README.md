@@ -9,7 +9,7 @@ So basically you download, install and run http-to-https-letsencrypt server,
 and then run [certbot](https://certbot.eff.org/) in _--webroot_ mode alongside.
 
 ## Download
-[Download binary](https://github.com/bohdaq/rust-http-to-https-letsencrypt-acme/releases) from releases page.  There is a mirror for downloads on [Google Drive](https://drive.google.com/drive/folders/1wize_LrCwGgs4MSvldhbpqDx4UTD3uEk?usp=share_link).
+[Download binary](https://github.com/bohdaq/http-to-https-letsencrypt/releases) from releases page.  There is a mirror for downloads on [Google Drive](https://drive.google.com/drive/folders/1wize_LrCwGgs4MSvldhbpqDx4UTD3uEk?usp=share_link).
 
 ## Installation
 Open [INSTALL](INSTALL.md) for details.
