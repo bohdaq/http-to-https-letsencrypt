@@ -21,6 +21,9 @@ There is a mirror for downloads on [Google Drive](https://drive.google.com/drive
 #### x86 64-bit RPM
 Replace _YOUR_VERSION_ with version you downloaded.
 > sudo rpm -i --force http-to-https-letsencrypt-_YOUR_VERSION_.rpm
+ #### x86 64-bit Portage ebuild
+Open **[http-to-https-letsencrypt Portage ebuild](https://github.com/bohdaq/http-to-https-letsencrypt-portage-ebuild)** for details.
+
 
 ### ARM 64-bit Linux
 > sudo cp http-to-https-letsencrypt /usr/local/bin
