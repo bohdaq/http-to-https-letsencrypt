@@ -3,34 +3,50 @@
 ## Install
 [Download binary](https://github.com/bohdaq/rust-web-server/releases) for you platform from releases page.
 There is a mirror for downloads on [Google Drive](https://drive.google.com/drive/folders/13iSR3VxmfFvZgOZ0LddP_EJp7GJ-lQd8?usp=sharing).
-### x86 64-bit Apple macOS
-> sudo cp http-to-https-letsencrypt /usr/local/bin
+
+Make sure you removed previous executable:
+
+> sudo rm -f /usr/local/bin/http-to-https-letsencrypt #old path
 >
-> sudo chmod ug+rwx,o+r /usr/local/bin/http-to-https-letsencrypt
-#### x86 64-bit Homebrew macOS
+> sudo rm -f /usr/bin/http-to-https-letsencrypt
+
+
+### x86 64-bit Apple macOS
+> sudo cp http-to-https-letsencrypt /usr/bin
+>
+> sudo chmod ug+rwx,o+r /usr/bin/http-to-https-letsencrypt
+#### Alternative way: x86 64-bit Homebrew macOS
 > brew tap bohdaq/rust-web-server
 >
 > brew install http-to-https-letsencrypt
 
+
+
+
 ### x86 64-bit Linux
-> sudo cp http-to-https-letsencrypt /usr/local/bin
+> sudo cp http-to-https-letsencrypt /usr/bin
 >
-> sudo chmod ug+rwx,o+r /usr/local/bin/http-to-https-letsencrypt
-#### x86 64-bit Debian
+> sudo chmod ug+rwx,o+r /usr/bin/http-to-https-letsencrypt
+#### Alternative way: x86 64-bit Debian
 > sudo dpkg -i --force-overwrite http-to-https-letsencrypt.deb
-#### x86 64-bit RPM
+#### Alternative way: x86 64-bit RPM
 Replace _YOUR_VERSION_ with version you downloaded.
 > sudo rpm -i --force http-to-https-letsencrypt-_YOUR_VERSION_.rpm
- #### x86 64-bit Portage ebuild
+ #### Alternative way: x86 64-bit Portage ebuild
 Open **[http-to-https-letsencrypt Portage ebuild](https://github.com/bohdaq/http-to-https-letsencrypt-portage-ebuild)** for details.
+#### Alternative way: x86 64-bit Pacman package
+Open **[http-to-https-letsencrypt Pacman package](https://github.com/bohdaq/http-to-https-letsencrypt-arch-package)** for details.
 
 
 ### ARM 64-bit Linux
-> sudo cp http-to-https-letsencrypt /usr/local/bin
+> sudo cp http-to-https-letsencrypt /usr/bin
 >
-> sudo chmod ug+rwx,o+r /usr/local/bin/http-to-https-letsencrypt
-#### ARM 64-bit Debian
+> sudo chmod ug+rwx,o+r /usr/bin/http-to-https-letsencrypt
+#### Alternative way: ARM 64-bit Debian
 > sudo dpkg -i --force-overwrite http-to-https-letsencrypt.deb
+
+
+
 
 ### x86 64-bit Windows
 Copy executable to _C:\WINDOWS\system32_ folder.

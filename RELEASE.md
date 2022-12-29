@@ -37,6 +37,7 @@ Here is the list of supported architectures:
    1.  Debian: **[create package](https://github.com/bohdaq/http-to-https-letsencrypt-create-deb)** 
    1.  RPM: **[create package](https://github.com/bohdaq/http-to-https-letsencrypt-create-rpm)**
    1.  Portage: **[http-to-https-letsencrypt create ebuild](https://github.com/bohdaq/http-to-https-letsencrypt-portage-ebuild)**
+   1.  Pacman: **[http-to-https-letsencrypt create pacman package](https://github.com/bohdaq/http-to-https-letsencrypt-arch-package)**
 
 1. ARM 64-bit Linux: **aarch64_unknown_linux_gnu**
    1.  Debian: **[create package](https://github.com/bohdaq/http-to-https-letsencrypt-create-deb)**

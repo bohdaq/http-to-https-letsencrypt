@@ -85,7 +85,7 @@ I'm not able to start server as root:
 > Command not found
 
 ### Solution
-Root does not have /usr/local/bin as part of his $PATH variable. Try to start server by explicitly specifying path to http-to-https-letsencrypt: _/usr/local/bin/http-to-https-letsencrypt_ 
+Root does not have /usr/bin as part of his $PATH variable. Try to start server by explicitly specifying path to http-to-https-letsencrypt: _/usr/bin/http-to-https-letsencrypt_ 
 
 ## Problem 16
 I'm trying to build http-to-https-letsencrypt from source and getting the error:
