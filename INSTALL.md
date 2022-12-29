@@ -1,8 +1,8 @@
 [Read Me](README.md) > Install
 
 ## Install
-[Download binary](https://github.com/bohdaq/rust-web-server/releases) for you platform from releases page.
-There is a mirror for downloads on [Google Drive](https://drive.google.com/drive/folders/13iSR3VxmfFvZgOZ0LddP_EJp7GJ-lQd8?usp=sharing).
+[Download binary](https://github.com/bohdaq/http-to-https-letsencrypt/releases) for you platform from releases page.
+There is a mirror for downloads on [Google Drive](https://drive.google.com/drive/folders/1wize_LrCwGgs4MSvldhbpqDx4UTD3uEk?usp=share_link).
 
 Make sure you removed previous executable:
 
