@@ -105,3 +105,14 @@ You need to install development tools:
 
 > sudo pacman -S base-devel # Arch Linux
 
+## Problem 17
+While building from IDE getting error:
+
+> error[E0514]: found crate `NAME` compiled by an incompatible version of rustc
+
+### Solution
+Usually whenever such error encountered by me, I'm performing clean and build from the console, eliminating the built-in IDE compilation, and it works fine.
+
+> cargo clean
+>
+> cargo build
