@@ -137,3 +137,14 @@ Usually whenever such error encountered by me, I'm performing clean and build fr
 > sudo cargo clean
 >
 > sudo cargo build
+
+## Problem 19
+While getting sources getting an error:
+
+> The following untracked working tree files would be overwritten by merge (checkout): Cargo.lock
+
+### Solution
+Delete `Cargo.lock`, it will be regenerated automatically.
+
+> rm Cargo.lock
+
